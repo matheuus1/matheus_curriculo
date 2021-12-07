@@ -97,9 +97,9 @@ hr:not([size]) {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  margin-top: 0;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -140,7 +140,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 4rem;
 }
 
 h6, .h6 {
@@ -149,7 +149,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 abbr[title],
@@ -1172,6 +1172,8 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+    font-size: x-large;
+    text-align: left;
   }
 
   .col-md-7 {
@@ -3961,8 +3963,8 @@ textarea.form-control-lg {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: rgb(201, 15, 15);
+  border-color: #007af3 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -6156,7 +6158,7 @@ textarea.form-control-lg {
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: black;
+  color: white;
   text-align: center;
 }
 
